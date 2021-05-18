@@ -1,0 +1,87 @@
+Good Morning to All...!!!
+
+
+Wait for few minutes others can join the session
+Yesterday
+--------
+		GIT&GITHUB:Distributed Version System
+		Git:Local Software
+		github:Cloud(Server)
+
+
+
+
+Today Agenda:
+
+	-->practicing on Linux Commands
+	-->Practicing on Git Commands
+			->git init
+				Configure(username&email)
+			->git confit --global user.name "vijay"
+			->checking userconfiguration
+				->git config user.name
+			->git config --global user.email "vijay10022@gmail.com"
+			->Checking emmail is configure or not
+				->git config user.email
+			
+	-->Git Local Configuration
+		
+	
+	-->We Are Creating Bridge B/W Local Sytem to Server(Adding Remote)
+	-->PUSH,CLONE,COMMIT(Saving Our Files)
+
+
+
+-->Desktop
+	Create A new Folder(ctrl+Shift+n)
+	-->Create One Root Folder(Repository)
+			-->Agine Create Another Folder
+					-->Open Gitbash
+			
+	->PWD(Present Working Diretory)
+	->LS(LIST OF Sourse files or Folders)
+	->CD ..(Change Diretory To Back Word)
+	->CD foldername (Change Diretory ot Forward)
+	->CTRL+L or clear(Clear Screen)
+	-->jump from one diretory to another diretory
+			cd drivename:
+	->MKDIR FolderName(To Create New Folder)
+	->RMDIR FolderName(TO Remove or Delete Particular Folder)
+	->Touch filenames (Crateing one or Multiple Files)
+	->nano filename.txt
+		->Editorview
+			-->Save Text(ctrl+o)-->y
+			-->Exit From Editor(ctrl+x)
+	->Cat file.txt ||More (Accessing Data From Files )
+	->rm filename (Removing or Delete File)
+	->Echo(Display somthing into Command or Files)
+	->echo {1..10}
+			Generate 1 to 10 Values
+	->echo {1..1000}
+			Generate 1 to 1000 values
+	->echo "Hello all" >> filename.txt
+		storing message into file
+	->echo {1..100} >> values.txt
+		Generating 1 to 100 Values and storing that values into file
+	->rm *
+	->touch file{1..10}.txt
+		(Creating Multiple file from 1 to 10)
+	->rm file{11..1000}.txt
+		(Deleting From 11 to 1000 files)
+	-->Create Multiple files with multiple extension from 1 to 10
+	->rm file{5..10}.txt c_language{5..10}.c python{5..10}.py htmlfile{5..10}.html
+	-->
+	
+	->rm *(all).txt(delting all Files with extension .txt)
+	->rm * (Delete All files with diretory)
+	->cat sourcefile >> destinationfile
+		(copy Data from Source to Destination)
+	
+	->MV(Moving Files from Sourse To Destination)
+		mv sourcefile destinationfile
+		mv source.txt destination.txt
+		When Ever Pass Above Command source file is deleted
+	->cp sourcefile destinationfile
+		(Copy data from one file to another file)
+	->ls -l(List of Hidden Files)
+	
