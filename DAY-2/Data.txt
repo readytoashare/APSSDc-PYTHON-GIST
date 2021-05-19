@@ -53,7 +53,7 @@ Today Agenda:
 		->Editorview
 			-->Save Text(ctrl+o)-->y
 			-->Exit From Editor(ctrl+x)
-	->Cat file.txt ||More (Accessing Data From Files )
+	->Cat file.txt ||More (Accessing Data From Files  and Data Copy from one file to anotherfile )
 	->rm filename (Removing or Delete File)
 	->Echo(Display somthing into Command or Files)
 	->echo {1..10}
@@ -71,8 +71,6 @@ Today Agenda:
 		(Deleting From 11 to 1000 files)
 	-->Create Multiple files with multiple extension from 1 to 10
 	->rm file{5..10}.txt c_language{5..10}.c python{5..10}.py htmlfile{5..10}.html
-	-->
-	
 	->rm *(all).txt(delting all Files with extension .txt)
 	->rm * (Delete All files with diretory)
 	->cat sourcefile >> destinationfile
@@ -80,9 +78,70 @@ Today Agenda:
 	
 	->MV(Moving Files from Sourse To Destination)
 		mv sourcefile destinationfile
-		mv source.txt destination.txt
+		-->mv source.txt destination.txt
 		When Ever Pass Above Command source file is deleted
+		
 	->cp sourcefile destinationfile
 		(Copy data from one file to another file)
 	->ls -l(List of Hidden Files)
+	
+	
+	->Git init
+		1).local
+			Myfolder
+					->one Project
+				git config user.name "vijay"
+				git config user.email "vijay10022@gmail"
+				
+			Myfolder2
+					->Second Project
+					git config user.name "vijay"
+					git config user.email "vijay10022@gmail"
+		2).global
+				Entire System:
+					git config --global user.name "Vijay"
+					git config --global user.email "vijay10022@gmail.com"
+		-> mkdir Day-3
+		->cd Day-3
+		->nano demo.txt
+				This is demo file
+			->ctrl+o
+			->ctrl+x
+		->git adding
+				->single file 
+					1).git add demo.txt
+				->Multiple files
+					1).git add --all or git add --a
+					2).git add *
+					3).git add .
+		staging :
+				-->git status
+			-->untracked(red color)
+					before adding files
+			-->tracked(green color)
+					(after adding files)
+		-->Commit(siving)
+			->git commit -m "Message (Day-3 folder is added)"
+		-->Adding Remote
+			->git remote add remotename(userdefined) url
+				git remote add gist https://github.com/readytoashare/APSSDc-PYTHON-GIST.git
+		
+		->checking 
+				git remote -v
+				
+		-->Sending data from local to server(github)
+			->git push -u remotename master(branch name)
+				ex:git push -u gist master
+		-->update file in github
+			commit changes
+		-->git pull remotename master(fetching data from Cloud)
+			ex:git pull gist master
+			
+			
+	
+	Today(Day-3[19-05-2021])
+		Agenda:
+				
+	
+	
 	
