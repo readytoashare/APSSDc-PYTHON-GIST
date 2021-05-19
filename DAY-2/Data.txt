@@ -9,8 +9,6 @@ Yesterday
 		github:Cloud(Server)
 
 
-
-
 Today Agenda:
 
 	-->practicing on Linux Commands
@@ -23,12 +21,15 @@ Today Agenda:
 			->git config --global user.email "vijay10022@gmail.com"
 			->Checking emmail is configure or not
 				->git config user.email
+			-->git status
+			-->git add foldername or filename
+			-->git commit -m "I have added two folders in my folder"
 			
 	-->Git Local Configuration
 		
 	
 	-->We Are Creating Bridge B/W Local Sytem to Server(Adding Remote)
-	-->PUSH,CLONE,COMMIT(Saving Our Files)
+	-->PUSH,PULL,CLONE,COMMIT(Saving Our Files)
 
 
 
